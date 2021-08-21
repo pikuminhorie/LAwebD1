@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 100%;
+    background: #0b1864;
+    font-family: 'Noto Sans JP', sans-serif;
+
+    position: relative;
+    /* background:#ffffff; */
+    cursor: none;  /*カーソル非表示*/
+    height:100vh;
+
+  }
+  
+  #cursor{
+    position: fixed;
+    /* background: #000000; */
+    border-radius:10px;
+    width: 20px;
+    height: 20px;
+    margin: -45px 0 0 -60px;
+
+    
+  
+    z-index: 4;
+    pointer-events: none;
+    opacity: 0;
+  }
+  
+  
+
+
+#header{
+    width: 100%;
+    overflow: hidden;
+    background: #0e2081;
+    padding: 6px 0px;
+    font-family: 'Oswald', sans-serif;
+
+          position: fixed;
+          top: 0;
+          z-index: 2;
+}
+
+#header h1{
+    float: left;
+    color: #F7F3E9;
+    margin-right: 48px;
+    font-size: 80px;
+}
+
+}
+
+nav{
+    overflow: hidden;
+    margin-top: auto;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+    margin-top: 14px;
+}
+
+nav a{
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #F7F3E9;
+    margin: 14px 16px 0px;
+    transition: 0.2s;
+}
+
+nav a:hover{
+    border-bottom: 3px solid #ffc947 ;
+}
+
+.main-visual{
+width: 100%;
+height: 500px;
+background: #0e2081 url(ezgif.com-gif-maker.png) 0  0 no-repeat;
+background-size: 700px;
+background-position-x: center;
+background-position-y: center;
+}
+
+.main-visual:hover{
+    width: 100%;
+    height: 500px;
+    background:#0e2081 url(ezgif.com-gif-maker2.png) 0  0 no-repeat;
+    background-size: 700px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+
+#main{
+    width: 608px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #0b1864;
+    padding: 16px;
+    float: left;
+}
+
+.wrapper{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.content{
+    padding-bottom: 50px;
+    color: #f9f9f9;
+background-color: #0b1864;
+margin: 20px;
+/* border: 10px solid #ffc947; */
+border-radius: 10px;
+    font-size: larger;
+    position: relative;
+}
+
+img{
+    float: left;
+}
+
+#content1 p{
+    font-size: 23px;
+}
+/* p.top{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #e63c35;
+    color: #fff;
+    text-align: center;
+    line-height: 65px;
+    font-size: 25px;
+    position: absolute;
+    right: 100px;
+} */
+
+
+footer{
+    font-family: 'Oswald', sans-serif;
+    color: #0b1864;
+    text-align: center;
+    background-color: #ffc947;
+}
