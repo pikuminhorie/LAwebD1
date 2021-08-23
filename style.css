@@ -30,18 +30,15 @@ body{
     pointer-events: none;
     opacity: 0;
   }
+
+  
   
   #loading{
       position: fixed;
       width: 100%;
       height: 100%;
       z-index: 100;
-      background-color: #727272;
-  }
-
-  #loading_word p{
-      color: #ffc947;
-      
+      background-color: #8f96bd;
   }
   
   #loading2{
@@ -57,7 +54,7 @@ body{
     width: 100%;
     height: 100%;
     z-index: 80;
-    background-color: #525252;
+    background-color: #8f96bd;
 }
 
 
@@ -172,7 +169,9 @@ img{
     right: 100px;
 } */
 
-
+#footer-link{
+    display: none;
+}
 
 footer{
     font-family: 'Oswald', sans-serif;
