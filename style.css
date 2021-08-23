@@ -36,15 +36,28 @@ body{
       width: 100%;
       height: 100%;
       z-index: 100;
-      background-color: rgb(184, 184, 184);
-      text-align: center;
-      color: #0b1864;
+      background-color: #727272;
   }
 
   #loading_word p{
       color: #ffc947;
   }
   
+  #loading2{
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: 90;
+      background-color: #f9f9f9;
+  }
+
+  #loading3{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 80;
+    background-color: #525252;
+}
 
 
 #header{
@@ -97,6 +110,7 @@ width: 100%;
 height: 500px;
 background: #0e2081 url(ezgif.com-gif-maker.png) 0  0 no-repeat;
 background-size: 700px;
+margin: 0 auto;
 background-position-x: center;
 background-position-y: center;
 }
@@ -106,6 +120,7 @@ background-position-y: center;
     height: 500px;
     background:#0e2081 url(ezgif.com-gif-maker2.png) 0  0 no-repeat;
     background-size: 700px;
+    margin: 0 auto;
     background-position-x: center;
     background-position-y: center;
 }
