@@ -1,5 +1,5 @@
 $(function(){
-  //あまりまだわかってないところは
+  //まだあんまりわかってないところ
   //ここから
     var cursor=$("#cursor");
     
@@ -16,5 +16,11 @@ $(function(){
       });
     });
     //ここまでのカーソル変更
-    //
+    
+    //ローディング画面
+    $(window).on('load',function(){
+      $("#loading").fadeOut('slow');
+      $("#loading_word").fadeOut('slow');
+    })
+
   });
