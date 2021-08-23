@@ -79,7 +79,7 @@ body{
     font-size: 80px;
 }
 
-}
+
 
 nav{
     overflow: hidden;
@@ -177,4 +177,21 @@ footer{
     color: #0b1864;
     text-align: center;
     background-color: #ffc947;
+}
+
+@media screen and (max-width:480px) {
+
+    * {
+        float: none;
+        position: static;
+    }
+     
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.main-visual{
+
+}  
 }
