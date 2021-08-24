@@ -6,7 +6,7 @@
 
 body{
     width: 100%;
-    background: #0b1864;
+    background: #0C4271;
     font-family: 'Noto Sans JP', sans-serif;
 
     position: relative;
@@ -38,7 +38,7 @@ body{
       width: 100%;
       height: 100%;
       z-index: 100;
-      background-color: #8f96bd;
+      background-color: #0C4271;
   }
   
   #loading2{
@@ -46,7 +46,7 @@ body{
       width: 100%;
       height: 100%;
       z-index: 90;
-      background-color: #f9f9f9;
+      background-color: #0A81AB;
   }
 
   #loading3{
@@ -54,14 +54,14 @@ body{
     width: 100%;
     height: 100%;
     z-index: 80;
-    background-color: #8f96bd;
+    background-color: #0C4271;
 }
 
 
 #header{
     width: 100%;
     overflow: hidden;
-    background: #0e2081;
+    background: #0A81AB;
     padding: 6px 0px;
     font-family: 'Oswald', sans-serif;
 
@@ -72,7 +72,7 @@ body{
 
 #header h1{
     float: left;
-    color: #F7F3E9;
+    color: #ffffff;
     margin-right: 48px;
     font-size: 80px;
 }
@@ -94,7 +94,7 @@ nav a{
     font-size: 20px;
     display: block;
     text-decoration: none;
-    color: #F7F3E9;
+    color: #F9DFDC;
     margin: 14px 16px 0px;
     transition: 0.2s;
 }
@@ -106,7 +106,7 @@ nav a:hover{
 .main-visual{
 width: 100%;
 height: 500px;
-background: #0e2081 url(ezgif.com-gif-maker.png) 0  0 no-repeat;
+background: #0A81AB url(ezgif.com-gif-maker.png) 0  0 no-repeat;
 background-size: contain;
 margin: 0 auto;
 background-position-x: center;
@@ -116,7 +116,7 @@ background-position-y: center;
 .main-visual:hover{
     width: 100%;
     height: 500px;
-    background:#0e2081 url(ezgif.com-gif-maker2.png) 0  0 no-repeat;
+    background:#0A81AB url(ezgif.com-gif-maker2.png) 0  0 no-repeat;
     background-size: contain;
     margin: 0 auto;
     background-position-x: center;
@@ -128,7 +128,7 @@ background-position-y: center;
     width: 608px;
     margin: 0 auto;
     overflow: hidden;
-    background: #0b1864;
+    background: #0C4271;
     padding: 16px;
     float: left;
 }
@@ -141,7 +141,7 @@ background-position-y: center;
 .content{
     padding-bottom: 50px;
     color: #f9f9f9;
-background-color: #0b1864;
+background-color: #0C4271;
 margin: 20px;
 /* border: 10px solid #ffc947; */
 border-radius: 10px;
@@ -175,9 +175,9 @@ img{
 
 footer{
     font-family: 'Oswald', sans-serif;
-    color: #0b1864;
+    color: #F9DFDC;
     text-align: center;
-    background-color: #ffc947;
+    background-color: #0A81AB;
 }
 
 /* ここからスマホ用 */
