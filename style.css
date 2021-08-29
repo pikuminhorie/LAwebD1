@@ -205,6 +205,21 @@ footer{
     background-color: #0A81AB;
 }
 
+.product{
+    padding:30px;
+}
+
+.product img{
+    float: none;
+}
+.float-left{
+    float: left;
+}
+
+.product h1,h2,h3{
+    font-family:'Oswald',sans-serif;
+    font-size: 200%;
+}
 
 
 
