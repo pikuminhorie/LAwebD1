@@ -5,8 +5,8 @@
 
 
 body{
-    width: 100%;
-    background: #0C4271;
+    width: 100vw;
+    background: #0A81AB;
     font-family: 'Noto Sans JP', sans-serif;
 
     position: relative;
@@ -59,9 +59,10 @@ body{
 
 
 #header{
-    width: 100%;
+    width: 40%;
+    height: 100%;
     overflow: hidden;
-    background: #0A81AB;
+    background: #ececec;
     padding: 6px 0px;
     font-family: 'Oswald', sans-serif;
 
@@ -71,66 +72,80 @@ body{
 }
 
 #header h1{
-    float: left;
-    color: #ffffff;
-    margin-right: 48px;
-    font-size: 80px;
+    color: #da6a38;
+    margin-left: 6%;
+    font-size: 70px;
 }
 
 
 
 nav{
     overflow: hidden;
-    margin-top: auto;
+    margin-top: 100px;
 }
 
 nav li{
     list-style-type: none;
-    float: left;
-    margin-top: 14px;
+    margin-top: 20px;
+    margin-left: 6%;
 }
 
 nav a{
-    font-size: 20px;
+    font-size: 55px;
     display: block;
     text-decoration: none;
-    color: #F9DFDC;
-    margin: 14px 16px 0px;
+    color: #0A81AB;
+    margin: 14px 8px 0px;
     transition: 0.2s;
 }
 
 nav a:hover{
-    border-bottom: 3px solid #ffc947 ;
+    /* border-bottom: 10px solid #ffc947 ; */
+    color: #2E499D;
+    transform:scale(1.1,1.1);
 }
 
 .main-visual{
 width: 100%;
-height: 500px;
-background: #0A81AB url(ezgif.com-gif-maker.png) 0  0 no-repeat;
+height: 100%;
+background-color: #dddddd;
+/* background: #dddddd url(ezgif.com-gif-maker.png) 0  0 no-repeat; */
 background-size: contain;
 margin: 0 auto;
 background-position-x: center;
 background-position-y: center;
 }
 
-.main-visual:hover{
-    width: 100%;
-    height: 500px;
-    background:#0A81AB url(ezgif.com-gif-maker2.png) 0  0 no-repeat;
-    background-size: contain;
-    margin: 0 auto;
-    background-position-x: center;
-    background-position-y: center;
+.main-visual img{
+    position: absolute;
+    top: 30%;
+    left: 60%;
 }
 
+.main-visual .cat-b{
+    opacity: 1;
+}
 
-#main{
+.main-visual:hover .cat-b{
+    opacity: 0;
+}
+
+.main-visual .cat{
+    opacity: 0;
+}
+
+.main-visual:hover .cat{
+  opacity: 1;
+}
+
+.main{
     width: 608px;
-    margin: 0 auto;
     overflow: hidden;
-    background: #0C4271;
+    background: #0A81AB;
     padding: 16px;
-    float: left;
+    position: relative;
+    top: auto;
+    left:350px ;
 }
 
 .wrapper{
@@ -141,19 +156,18 @@ background-position-y: center;
 .content{
     padding-bottom: 50px;
     color: #f9f9f9;
-background-color: #0C4271;
+background-color: #0A81AB;
 margin: 20px;
 /* border: 10px solid #ffc947; */
 border-radius: 10px;
     font-size: larger;
-    position: relative;
 }
 
 img{
     float: left;
 }
 
-#header,
+/* #header,
 .content,
 .main-visual,
 .main-visual:hover{
@@ -170,7 +184,7 @@ img{
         opacity:1;
     }
     
-}
+} */
 /*keyframesは「fromからto」で最初と最後だけ指定。0%から100%など細かい数字もできるみたい*/
 
 #content1 p{
@@ -191,34 +205,60 @@ footer{
     background-color: #0A81AB;
 }
 
+
+
+
+
 /* ここからスマホ用 */
 @media screen and (max-width:480px) {
 
     body{
         overflow-x: hidden;
+        z-index: -5;
     }
 
-#header h1{
+
+    #header{
+        width: 100%;
+        height: 15%;
+    }
+
+    #header h1{
  font-size: 60px;
  width: 10%;
  margin-top: 10px;
  margin-left: 75px;
 }
 
-#header a{
-    width: 20%;
+nav{
+    display: none;
 }
 ul{
     display: none;
 }
 
+.main{
+    position: relative;
+    top: auto;
+    left:0px ;
+    
+}
+
    .main-visual,
    .main-visual:hover{
-       width: 100vw;
+       width: 110vw;
    }
+
+   .cat,
+   .cat-b{
+       margin-left: -65%;
+   }
+
 .content{
- width: 80vw;
+ /* width: 80vw; */
  font-size: 15px;
+ width: 80vw;
+ margin-left: 5%;
 }
 
 #content1 p{
@@ -231,6 +271,7 @@ ul{
 
 footer{
 width: 90vw;
+margin-left:0%;
 }
 
 }
